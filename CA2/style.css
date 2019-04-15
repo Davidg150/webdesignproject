@@ -1,0 +1,355 @@
+*{
+	font-family: Arial, Verdana, sans-serif;
+	color: #000f4a;
+	text-align: center;
+	text-decoration: none;
+}
+body {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #000f4a;
+	
+}	
+h6{
+	font-weight: normal;
+	text-align: center;
+}
+#content {
+	overflow: auto;
+	height: 100%;}	
+#nav{
+	background-color: #efefef;
+	padding: 10px;
+	margin: 10px;
+	overflow:hidden;
+	
+	}
+	li {
+	display: inline;
+	padding: 20px;
+}	
+#feature{
+	background-color: #efefef;
+	padding: 10px;
+	margin: 10px;
+}
+.economy1, .economy2, .economy3{
+
+	background-color: #efefef;
+	width: 300px;
+	float: left;
+	margin: 10px;
+	padding-bottom: auto;
+    }
+.column1, .column2, .column3 {
+	background-color: #efefef;
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin: 10px;
+}
+
+.column4, .column5, .column6 {
+	background-color: #efefef;
+	width: 300px;
+	height: 200px;
+	float: left;
+	margin: 10px;
+}
+	#footer{
+	background-color: #efefef;
+	padding: 10px;
+	margin: 10px;
+}
+#sublogo{
+	float: left;
+}	
+	
+
+
+
+
+
+
+.topnav {
+  background-color: #d5213d;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 25px;
+  font-size: 17px;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  background-color: #000f4a;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+  font-size: 17px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000f4a;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px; 
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #000f4a;
+  color: white;
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+
+
+
+
+
+/* http://www.menucool.com */
+
+#sliderFrame, #sliderFrame div {
+    box-sizing: content-box;
+}
+#sliderFrame 
+{
+    position:relative;
+    width:700px;
+    margin:0 auto;
+}
+
+#slider, #slider div.sliderInner {
+    width:700px;height:306px;
+}
+
+#slider {
+	background:#fff url(images/loading.gif) no-repeat 50% 50%;
+	position:relative;
+	margin:0 auto; 
+    transform: translate3d(0,0,0);
+    box-shadow: 0px 1px 5px #999999;
+}
+
+#slider a.imgLink, #slider div.video {
+	z-index:2;
+	position:absolute;
+	top:0px;left:0px;border:0;padding:0;margin:0;
+	width:100%;height:100%;
+}
+#slider .video {
+	background:transparent url(video.png) no-repeat 50% 50%;
+}
+
+
+#slider div.mc-caption-bg, #slider div.mc-caption-bg2 {
+	position:absolute;
+	width:100%;
+	height:auto;
+	padding:10px 0;
+	left:0px; 
+	bottom:0px;
+	z-index:3;
+	overflow:hidden;
+	font-size: 0;
+}
+#slider div.mc-caption-bg 
+{
+    
+	background:Black;
+}
+#slider div.mc-caption-bg2 {
+    background:none;
+}
+#slider div.mc-caption {
+	font: bold 14px/20px Arial;
+	color:#EEE;
+	z-index:4;
+	text-align:center;
+    background:none;
+}
+#slider div.mc-caption a {
+	color:#FB0;
+}
+#slider div.mc-caption a:hover {
+	color:#DA0;
+}
+
+#slider div.navBulletsWrapper  {
+    top:320px;
+	text-align:center;
+	background:none;
+	position:relative;
+	z-index:5;
+}
+
+
+#slider div.navBulletsWrapper div 
+{
+    width:11px; height:11px;
+    font-size:0;color:White;/*hide the index number in the bullet element*/
+    background:transparent url(bullet.png) no-repeat 0 0;
+    display:inline-block; *display:inline; zoom:1;
+    overflow:hidden;cursor:pointer;
+    margin:0 6px;/* set distance between each bullet*/
+}
+
+#slider div.navBulletsWrapper div.active {background-position:0 -11px;}
+
+
+/* --------- Others ------- */
+
+#slider div.loading 
+{
+    width:100%; height:100%;
+    background:transparent url(loading.gif) no-repeat 50% 50%;
+    filter: alpha(opacity=60);
+    opacity:0.6;
+    position:absolute;
+    left:0;
+    top:0; 
+    z-index:9;
+}
+
+#slider img, #slider>b, #slider a>b {
+	position:absolute; border:none; display:none;
+}
+
+#slider div.sliderInner {
+	overflow:hidden; 
+	-webkit-transform: rotate(0.000001deg);/* fixed the Chrome not crop border-radius bug*/
+	position:absolute; top:0; left:0;
+}
+
+#slider>a, #slider video, #slider audio {display:none;}
+#slider div {-webkit-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}
+
+
+.list {
+	font-weight: bold;
+	
+}
+
+@media screen and (max-width:1200px)  {
+	  body
+	  {
+			float: none;
+			
+	  }
+}	
+
+@media screen and (max-width:900px)  {
+	  body
+	  {
+		    float: none;
+			
+	  }
+
+}		
+
+	
+@media screen and (max-width:780px)  {
+	  *
+	  {
+	
+	text-align: left;
+	
+			
+			
+			
+	  }
+	  
+	  
+}	
+	
+@media screen and (max-width:480px)  {
+	  *{
+			float: none;
+			
+	
+	}
+}
+

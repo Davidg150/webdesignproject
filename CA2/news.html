@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>News |Templeogue|</title>
+				<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+				<link href="style.css" rel="stylesheet"/>
+				<script src="java.js"></script>
+	</head>
+	<body>
+	
+		<div id="header">
+			<img src="images/banner.png" alt="Website Banner"/>
+			
+			
+			<div class="topnav" id="myTopnav">
+							<a href="index.html">Home</a>
+							<a href="news.html" class="active">News</a>
+							
+			<div class="dropdown">
+							<button class="dropbtn">Teams 
+							<i class="fa fa-caret-down"></i>
+							</button>
+			<div class="dropdown-content">
+							<a href="senior.html">Senior</a>
+							<a href="u18.html">U18</a>
+							<a href="u14.html">U14</a>>
+			</div>
+		</div> 
+							<a href="fixtures.html">Fixtures</a>
+							<a href="contact.html">Contact</a>
+							<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+			</div>
+		</div>
+		
+		
+		
+		<div id="content">
+		<div id="feature">
+				<strong><h3>News</h3></strong>
+				<p>Welcome to the new look Templeogue Basketball Club website. Its been a long time coming but we hope it is worth the wait!</p>
+				<p>With the season coming to a close there will be no training for all teams! Enjoy the break!</p>
+				<p>Fixture meeting will take place on the 21st of August so check back then to see your teams games for the season!</p>
+				<p>Visit our teams page to find a coaches contact information</p>
+			</div>
+		<div id="content">
+		<div id="feature">
+				<strong><h3>Sign up to keep up to date with the latest news!</h3></strong>
+		<form action="" method="post">
+		<fieldset>
+					<div>
+					<select>
+					<option value="volvo">Senior Team</option>
+					<option value="saab">U18 Team</option>
+					<option value="mercedes">U14 Team</option>
+						<option value="audi">All Teams</option>
+					</select>
+					</div>
+            <div>
+                <input type="text" name="first_name" id="fname" placeholder="First Name"/>
+            </div>
+            <div>
+                <input type="text" name="last_name" id="lname" placeholder="Last Name"/>
+            </div>
+            <div>
+                <input type="text" name="email" id="email" placeholder="Email"/>
+            </div>
+            <div>
+                <input type="password" name="pass" id="password" placeholder="Password"/>
+            </div>
+            <div>
+                <div class="small">Leave us a Message</div>
+                    <textarea name="message" id="message" placeholder="Message"></textarea>
+            </div>    
+            <input type="button" value="Sign Up" onclick="emailValidator();">
+            <!--<input type="sign up" name="sign up" value="Send"/>-->
+        </fieldset>    
+    </form>
+
+	
+		</div>
+			
+		
+		<div id="footer">
+		<img src="images/logo1234.png" alt="Website footer"/>
+		</div>
+	</body>
+</html>
